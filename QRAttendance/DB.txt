@@ -1,0 +1,16 @@
+create database qrattendance;
+use qrattendance;
+
+create table addemp(emp_id varchar(50) primary key,
+emp_name varchar(50),
+contact_no varchar(15),
+gender varchar(20),
+email varchar(50),
+address varchar(50),
+designation varchar(50),
+salary double);
+
+create table attendance(emp_id varchar(50),
+presence_days date);
+
+
